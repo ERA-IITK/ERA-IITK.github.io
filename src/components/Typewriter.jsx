@@ -21,7 +21,10 @@ const Typewriter = ({ styles }) => {
   return (
     <h1 className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase pr-4 sm:pr-6`} style={{ marginLeft: '-60px' }}>
       Hi, Welcome to{' '}
-      <span className="sm:text-battleGray sm:text-[7vw] text-eerieBlack text-[7vw] font-mova font-extrabold uppercase" style={{ color: '#6194fb' }}>
+      <span className="sm:text-battleGray sm:text-[7vw] text-eerieBlack text-[7vw] font-mova font-extrabold uppercase"   style={{
+    color: '#6194fb',
+    textShadow: '-2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000'
+  }}>
         {text}
       </span>
     </h1>
